@@ -1028,13 +1028,15 @@ letter-spacing: 0em;
     }
   } */
 
-  @media (max-width: 1440px) {
-    .page2, .page2, .page3, .page4, .page5>div, .page6,.page7,
-.page8  {
-      width: 100%;
-      height: auto;
-     
-      
+  @media (max-width: 768px) {
+    body {
+      font-size: 14px;
     }
   }
   
+  /* Adjust styles for even smaller screens */
+  @media (max-width: 480px) {
+    body {
+      font-size: 12px;
+    }
+  }
